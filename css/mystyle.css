@@ -82,7 +82,7 @@
  }
 
  #img_logo{
-    padding-right: 50px;
+    padding: 20px;
  }
 
  #handle_id{
@@ -142,9 +142,6 @@
 
  .div1_about{
    float: left;
-   padding-right: 1em;
-   margin-top: 6.2em;   /*removes top space*/
-   margin-left: -9px;   /*removes left space*/
  }
 
  .div2_about{
@@ -186,8 +183,6 @@
 
  .project_info{
   color: #00c1c8;
-  font-size: 1.5em;
-  font-weight: bold;
  }
 
  .colum2{
@@ -258,3 +253,60 @@
   width: 100%;
   color: #fff;
 }
+
+.topnav {
+   /*overflow: visible;*/
+   display: none;
+   position: relative;
+   background-color: #333;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon  {
+
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.icon_back{
+  color: purple !important;
+}
+
+@media screen and (max-width:900px){
+       .topnav{
+         display: block;
+     }
+
+      .nav_div{
+        display: none;
+      }
+      .nav_about{
+        display: none;
+      }
+      #footer{
+        display: none;
+      }
+      #profile_img{
+        width: 100%;
+        height: auto;
+      }
+      .nav_game{
+       display: none; 
+      }
+}
+
+
+  
